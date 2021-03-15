@@ -6,5 +6,5 @@ read link
 echo "Enter file name"
 read filename
 
-youtube-dl --ignore-errors --extract-audio $link --audio-format mp3 -o ~/Music/alsongs/$filename.mp3
+youtube-dl --ignore-errors --extract-audio $link --audio-format mp3 -o ~/Music/$filename.mp3
 
